@@ -1,0 +1,142 @@
+.topBx{
+    text-align: center;
+    display: flex;
+    margin-left: 7rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topBx h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.topBx .arrowIconBx i{
+    font-size: 1.5rem;
+    color: var(--color-faint-2);
+    cursor: pointer;
+}
+
+.app-container .container .main .profileBx{
+    text-align: center;
+    margin: 1.4rem 0;
+}
+
+.app-container .container .main .profileBx .profileImgBx img{
+    width: 6rem;
+}
+
+.app-container .container .main .profileBx .textBx .user-name{
+    font-size: 1.5rem;
+    font-weight: 600;  
+}
+
+.app-container .container .main .profileBx .textBx .user-status{
+    color: var(--color-faint-2);
+}
+
+.app-container .container .main .stats{
+    /* background:Red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* .app-container .container .main .stats */
+
+.app-container .container .main .stats .box{
+    text-align: center;
+}
+
+.app-container .container .main .stats .box span{
+    color: var(--color-faint-2);
+    font-size: 0.9rem;
+}
+
+.app-container .container .main .settingBx{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 2rem;
+}
+
+.app-container .container .main .settingBx li i{
+    color: var(--color-faint-2);
+} 
+
+.app-container .container .main .settingBx li .setting-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-container .container .main .settingBx li .setting-item > div{
+    display: flex;
+    gap: 0.6rem;
+}
+
+.app-container .container .main .settingBx li .setting-item > div p{
+    font-weight: 500;
+}
+
+.app-container .container .main .settingBx li .setting-item .iconBx{
+    background-color: #c0f3da;
+    width: 1.8rem;
+    height:1.8rem;
+    text-align: center;
+    line-height: 1.8rem;
+    border-radius: 50%;
+}
+
+.app-container .container .main .settingBx li .setting-item .iconBx i{
+    color: var(--color-green);
+}
+
+.container .main .bottom-navbar{
+    /* background:Red; */
+    position: relative;
+}
+
+.container .main .bottom-navbar::before{
+    content: "+";
+    position: absolute;
+    text-align: center;
+    line-height: 3.2rem;
+    font-size: 2rem;
+    color: #fff;
+    width: 3.2rem;
+    top: -0.7rem;
+    left: 50%;
+    z-index: 999999;
+    transform: translate(-50%);
+    cursor: pointer;
+    height: 3.2rem;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    background-color: #00e91a;
+    background-image: linear-gradient(160deg, #00e91a 0%, #80D0C7 100%);
+}
+
+.container .main .bottom-navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container .main .bottom-navbar ul li i{
+    color: #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .main .bottom-navbar ul li i:hover{
+    color: var(--color-green);
+}
+
+.container .main .bottom-navbar ul li i.active{
+    color: var(--color-green);
+}

@@ -1,0 +1,28 @@
+.container .main{
+    display: flex;
+    gap: 6.5rem;
+    flex-direction: column;
+}
+
+.container .main .userBx{
+    text-align: center;
+}
+
+.container .main .userBx .imgBx img{
+    width: 10rem;
+}
+
+.container .main .userBx .contentBx p{
+    color: var(--color-text-faint);
+    font-size: 0.9rem;
+    margin: 0.7rem;
+}
+
+.container .main .userBx .contentBx h3{
+    font-size: 1.8rem;
+}
+
+.container .main .topBx{
+    display: flex;
+    gap: 3rem;
+}

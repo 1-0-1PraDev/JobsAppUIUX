@@ -1,0 +1,28 @@
+.app-container .container .main .contentBx .contentBox .resumeBx{
+    background-color: #fbfcff;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1) ,
+                -3px -3px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 1.1rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.app-container .container .main .contentBx .contentBox{
+    margin-bottom: 10rem;
+}
+
+.app-container .container .main .contentBx .contentBox .resumeBx i{
+    font-size: 1.8rem;
+    color: var(--color-orange);
+}
+
+.app-container .container .main .contentBx .contentBox .resumeBx .textBx h4{
+    padding: 0;
+}
+
+.app-container .container .main .contentBx .contentBox .resumeBx .textBx p{
+    margin: 0;
+    margin-top: -0.3rem;
+}

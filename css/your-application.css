@@ -1,0 +1,207 @@
+
+.container .main .topBx{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    /* background-color:red; */
+}
+
+.container .main .userBx{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .main .userBx .rightBx{
+    background-color: rgba(0,0,0,0.3);
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.container .main .userBx .iconBox{
+    position: relative;
+}
+
+.container .main .userBx .iconBox i{
+    font-size: 1.7rem;
+    color: var(--color-faint-2);
+}
+
+.container .main .userBx .iconBox::before{
+    content: "";
+    position: absolute;
+    top: -0.1rem;
+    left: 0.8rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.container .main .searchBx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container .main .searchBx .search{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.8rem;
+    padding: 0.7rem 1rem;
+}
+
+.container .main .searchBx .search .inputBx input{
+    font-size: 1rem;
+}
+
+.container .main .searchBx .iconBox{
+    background:var(--color-light);
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.container .main .searchBx .iconBox i{
+    font-size: 1.3rem;
+    color: var(--color-green);
+}
+  
+.app-container .container .main .jobCards {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 1.6rem;
+    overflow-y: auto;
+}
+
+.app-container .container .main .jobCards .jobCard {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx > div{
+    width: 100%;
+    /* background: red; */
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .textBx h4{
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .imgBx{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--color-faint-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .imgBx img{
+    width: 2.3rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .textBx{
+    text-align: left;
+    /* margin-bottom: 2rem;
+    display: block; */
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .iconBx {
+    margin-left: 1.7rem;
+    text-align: right;
+    color: var(--color-orange);
+    font-size: 1.4rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .iconBx span{
+    font-size: 0.2rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .locationBx {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .locationBx .iconBx{
+    color: var(--color-text-faint);
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.faintTxt{
+    color: var(--color-faint-2);
+}
+
+
+.container .main .bottom-navbar{
+    /* background:Red; */
+    position: relative;
+    margin-top: 2rem;
+}
+
+.container .main .bottom-navbar::before{
+    content: "+";
+    position: absolute;
+    text-align: center;
+    line-height: 3.2rem;
+    font-size: 2rem;
+    color: #fff;
+    width: 3.2rem;
+    top: -0.7rem;
+    left: 50%;
+    z-index: 999999;
+    transform: translate(-50%);
+    cursor: pointer;
+    height: 3.2rem;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    background-color: #00e91a;
+    background-image: linear-gradient(160deg, #00e91a 0%, #80D0C7 100%);
+}
+
+.container .main .bottom-navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container .main .bottom-navbar ul li i{
+    color: #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .main .bottom-navbar ul li i:hover{
+    color: var(--color-green);
+}
+
+.container .main .bottom-navbar ul li i.active{
+    color: var(--color-green);
+}

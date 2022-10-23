@@ -1,0 +1,208 @@
+.container .main .topBx{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.container .main .topBx h2{
+    margin-left: 6rem;
+}
+
+.container .main .userBx{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between !important;
+}
+
+.container .main .userBx .rightBx{
+    background-color: rgba(0,0,0,0.3);
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.container .main .userBx .iconBox{
+    position: relative;
+}
+
+.container .main .userBx .iconBox i{
+    font-size: 1.7rem;
+    color: var(--color-faint-2);
+}
+
+.container .main .userBx .iconBox::before{
+    content: "";
+    position: absolute;
+    top: -0.1rem;
+    left: 0.8rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.container .main .searchBx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container .main .searchBx .search{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    padding: 0.7rem 1rem;
+}
+
+.container .main .searchBx .search .inputBx input{
+    font-size: 1rem;
+}
+
+.container .main .searchBx .iconBox{
+    background:var(--color-light);
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.container .main .searchBx .iconBox i{
+    font-size: 1.3rem;
+    color: var(--color-green);
+}
+
+.container .main .msgContainer{
+    /* background-color:Red; */
+    padding: 1rem 0rem;
+}
+
+.container .main .msgContainer p{
+    color: var(--color-faint-2);
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.container .main .msgContainer .msgBxs .msgBx .iconBx{
+    background-color: var(--color-green);
+    position: relative;
+    width: 5rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 4.6rem;
+    align-self: stretch;
+    border-radius: 50%;
+}
+
+.container .main .msgContainer .msgBxs .msgBx{
+    display: flex;
+    gap: 0.6rem;
+    border-bottom: 0.07rem solid var(--color-faint-2);
+    padding: 1rem 0;
+}
+
+.border-none{
+    border: none !important;
+}
+
+.container .main .msgContainer .msgBxs .msgBx .iconBx i{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.container .main .msgContainer .msgBxs .msgBx .iconBx img{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .main .msgContainer .msgBxs .msgBx .userInfoBx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.container .main .msgContainer .msgBxs .msgBx .userInfoBx .textBx{
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.container .main .msgContainer .msgBxs .msgBx .userInfoBx > .textBx span{
+    font-size: 0.8rem;
+    text-align: right;
+    color: var(--color-faint-2);
+}
+
+.container .main .msgContainer .msgBxs .msgBx .userInfoBx p{
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.typing{
+    color: rgb(0, 110, 255) !important;
+}
+
+
+.container .main .bottom-navbar{
+    /* background:Red; */
+    position: relative;
+    margin-top: 2rem;
+}
+
+.container .main .bottom-navbar::before{
+    content: "+";
+    position: absolute;
+    text-align: center;
+    line-height: 3.2rem;
+    font-size: 2rem;
+    color: #fff;
+    width: 3.2rem;
+    top: -0.7rem;
+    left: 50%;
+    z-index: 999999;
+    transform: translate(-50%);
+    cursor: pointer;
+    height: 3.2rem;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    background-color: #00e91a;
+    background-image: linear-gradient(160deg, #00e91a 0%, #80D0C7 100%);
+}
+
+.container .main .bottom-navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container .main .bottom-navbar ul li i{
+    color: #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .main .bottom-navbar ul li i:hover{
+    color: var(--color-green);
+}
+
+.container .main .bottom-navbar ul li i.active{
+    color: var(--color-green);
+}

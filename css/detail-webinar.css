@@ -1,0 +1,179 @@
+.container .main .topBx{
+    display: flex;
+    gap: 3rem;
+}
+
+.app-container .container .main .cardBx{
+    background-color:#37a874;
+    position: relative;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    overflow: hidden;
+}
+
+.app-container .container .main .cardBx::before{
+    content: "";
+    position: absolute;
+    top: -1.3rem;
+    right: -3rem;
+    width: 10rem;
+    height: 140%;
+    transform: rotate(30deg);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.app-container .container .main .cardBx::after{
+    content: "";
+    position: absolute;
+    top: -1.3rem;
+    right: -5rem;
+    width: 10rem;
+    height: 140%;
+    transform: rotate(30deg);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.app-container .container .main .cardBx span{
+    color: #fff;    
+    display: block;
+    margin-top: 0.7rem;
+}
+
+.app-container .container .main .cardBx .imgBx{
+    content: "";
+    bottom: -1.8rem; 
+    right: -4.3rem;
+    position: absolute;
+}
+
+/* .app-container .container .main .cardBx .imgBx{
+
+} */
+
+.app-container .container .main .cardBx .imgBx img{
+    width: 15rem;
+}
+
+.app-container .container .main .cardBx .headingBig{
+    font-size: 3rem;
+    line-height: 1;
+    color: #fff;
+}
+
+.btn-date{
+    margin-top: 2rem;
+    background-color: #ff7127;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.app-container .container .main .calenderBx{
+    background:#fff;
+    display: flex;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.app-container .container .main .textBx{
+    margin: 1rem 0rem;
+}
+
+.app-container .container .main .textBx span{
+    font-size: 0.876rem;
+    color: var(--color-faint-2);
+}
+
+.app-container .container .main .calenderBx .dateBx{
+    display: flex;
+    flex-direction: column;
+    border-right: 0.2rem solid rgba(0, 0, 0, 0.4);
+    /* background:Red; */
+    padding: 0rem;
+    padding-right: 1rem;
+    gap: 0.8rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.app-container .container .main .calenderBx .dateBx span{
+    font-weight: bold;
+}
+
+.app-container .container .main .calenderBx .contentBx{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.app-container .container .main .calenderBx .contentBx .iconBx{
+    background-color: var(--color-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0.7rem 1rem;
+}
+
+.app-container .container .main .calenderBx .contentBx .iconBx i{
+    font-size: 1.4rem;
+}
+
+.app-container .container .main .calenderBx .contentBx .timeBx{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.app-container .container .main .calenderBx .contentBx .timeBx span{
+    font-weight: bold;
+}
+
+.app-container .container .main .calenderBx .contentBx .timeBx p{
+    font-size: 0.8rem;
+    color: var(--color-faint-2);
+    font-weight: bold;
+}
+
+.app-container .container .main .textInfo{
+    margin: 1rem 0;
+}
+
+.app-container .container .main .textInfo p{
+    font-size: 0.767rem;
+    color: var(--color-faint-2);
+}
+
+.app-container .container .main .bottomBx{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-container .container .main .bottomBx .rightBx a{
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 0.7rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.app-container .container .main .bottomBx .leftBx{
+    line-height: 1.2;
+}
+
+.app-container .container .main .bottomBx .leftBx p{
+    font-weight: 500;
+}
+
+.app-container .container .main .bottomBx .leftBx h2{
+    display: flex;
+    align-items: center;
+}
+
+.app-container .container .main .bottomBx .leftBx h2 span{
+    font-weight: normal;
+    font-size: 0.7rem;
+}

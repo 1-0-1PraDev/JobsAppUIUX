@@ -1,0 +1,117 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #c0dfcd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .iconBx-main{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 1.2rem;
+    background-color: #2cc170;
+    background-image: linear-gradient(29deg, #2cc170 0%, #69dd97 50%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .iconBx-main i{
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.container .textBx h1{
+    line-height: 1.2;
+    margin: 1.2rem 0;
+    font-size: 1.5rem;
+}
+
+.container .formBx{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.container .formBx .form-group label{
+    display: block;
+    margin-bottom: 0.3rem;
+    color: var(--color-text-faint);
+}
+
+.container .formBx .form-group p{
+    color: var(--color-text-faint);
+    text-align: right;
+}
+
+.container .formBx .form-group .inputBx{
+    background: transparent;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.7rem;
+    border: 2px solid var(--color-green);
+}
+
+.container .formBx .form-group .inputBx .iconBx{
+    background-color: var(--color-light);   
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.container .formBx .form-group .inputBx .iconBx i{
+    color: var(--color-green);
+    font-size: 1.1rem;
+}
+
+.container .formBx .form-group .inputBx input{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.container .formBx .form-group .signup-txt{
+    color: #000;
+    text-align: center;
+}
+
+.container .formBx .form-group .signup-txt a{
+    color: var(--color-green);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container .formBx .form-group .signup-txt a:hover{
+    text-decoration: underline;
+}
+
+.container .formBx .socialsBx {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container .formBx .socialsBx .socialBx img{
+    width: 1.5rem;
+    display: block;
+}
+
+.container .formBx .socialsBx .socialBx{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.container .formBx .socialsBx .socialBx i{
+    font-size: 1.5rem;
+    color: #29487D;
+}

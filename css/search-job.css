@@ -1,0 +1,284 @@
+.container .main .topBx{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.container .main .userBx{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .main .userBx .rightBx{
+    background-color: rgba(0,0,0,0.3);
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.container .main .userBx .imgBx img{
+    width: 4.5rem;
+}
+
+.container .main .searchBx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container .main .searchBx .search{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.8rem;
+    padding: 0.7rem 1rem;
+}
+
+.container .main .searchBx .search .inputBx input{
+    font-size: 1rem;
+}
+
+.container .main .searchBx .iconBox{
+    background:var(--color-light);
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.container .main .searchBx .iconBox i{
+    font-size: 1.3rem;
+    color: var(--color-green);
+}
+  
+.container .main .cardBxs{
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+}
+
+.container .main .cardBxs::-webkit-scrollbar{
+    display: none;
+}
+
+.container .main .cardBxs .cardBx{
+    position: relative;
+    flex: 0 0 17rem;
+    width: 19rem;
+    height: 11rem;
+    border-radius: 0.5rem;
+    background:var(--color-green);
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.container .main .cardBxs .cardBx::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 40.8%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.143);
+    transform: rotate(24deg) scale(1.6);    
+}
+
+.container .main .cardBxs .cardBx:nth-child(2){
+    background-color: #5853bc; 
+}
+
+.container .main .cardBxs .cardBx:nth-child(3){
+    background-color: #00d1ff; 
+}
+
+.container .main .cardBxs .cardBx .job{
+    color: #fff;
+    margin-top: 0.5rem;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.container .main .cardBxs .cardBx .location{
+    color: #fff;
+    margin-top: -0.3rem;
+    font-size: 0.9rem;
+}
+
+.container .main .cardBxs .cardBx::before{
+    content: "";
+    position: absolute;
+    top: -2.2rem;
+    left: -2.7rem;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    background-color: transparent; 
+    border: 2rem solid rgba(255, 255, 255, 0.167 );
+}   
+
+.container .main .cardBxs .cardBx .userBx .leftBx .owlIconBx{
+    width: 2.6rem;
+    height: 2.6rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .main .cardBxs .cardBx .userBx .leftBx .owlIconBx img{
+    width: 1.7rem;
+
+}
+
+.container .main .cardBxs .cardBx .userBx .leftBx{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container .main .cardBxs .cardBx .userBx .leftBx .userInfo {
+    text-align: left;
+    color: #fff;
+}
+
+.container .main .cardBxs .cardBx .userBx .leftBx .userInfo h3{
+    font-size: 0.8rem;
+}
+
+.container .main .cardBxs .cardBx .userBx .leftBx .userInfo p{
+    font-size: 0.7rem;
+}
+
+.container .main .cardBxs .cardBx ul{
+    list-style: none;
+    display: flex;
+    margin-top: 0.8rem;
+    gap: 0.43rem;
+}
+
+.container .main .cardBxs .cardBx ul li{
+    background: rgba(255, 255, 255, 0.247 );
+    padding: 0.4rem;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;  
+}
+
+.container .main .popular-job{
+    margin-top: 1rem;
+}
+
+.container .main .popular-job .jobBxs{
+    display: grid;
+    grid-gap: 0.7rem;
+}
+
+.container .main .popular-job .jobBxs .jobBx .imgBx img{
+    width: 2.6rem;
+}
+
+.container .main .popular-job .jobBxs .jobBx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    gap: 0.3rem;
+    background-color: #fff;
+}
+
+.container .main .popular-job h3{
+    margin-bottom: 0.4rem;  
+}
+
+.container .main .popular-job .jobBxs .jobBx .wrap{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.container .main .popular-job .jobBxs .jobBx .jobInfo{
+    line-height: 1.1;
+}
+
+.container .main .popular-job .jobBxs .jobBx .jobInfo h5{
+    font-size: 0.8rem;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.container .main .popular-job .jobBxs .jobBx .jobInfo span{
+    font-size: 0.7rem;
+    white-space: nowrap;
+    color: var(--color-text-faint);
+}
+
+.apply-btn{
+    text-decoration: none;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    background: var(--color-orange);
+    padding: 0.4rem;
+    color: #fff;
+    border-radius: 0.34rem;
+
+}
+
+.container .main .bottom-navbar{
+    /* background:Red; */
+    position: relative;
+}
+
+.container .main .bottom-navbar::before{
+    content: "+";
+    position: absolute;
+    text-align: center;
+    line-height: 3.2rem;
+    font-size: 2rem;
+    color: #fff;
+    width: 3.2rem;
+    top: -0.7rem;
+    left: 50%;
+    z-index: 999999;
+    transform: translate(-50%);
+    cursor: pointer;
+    height: 3.2rem;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    background-color: #00e91a;
+    background-image: linear-gradient(160deg, #00e91a 0%, #80D0C7 100%);
+}
+
+.container .main .bottom-navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container .main .bottom-navbar ul li i{
+    color: #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .main .bottom-navbar ul li i:hover{
+    color: var(--color-green);
+}
+
+.container .main .bottom-navbar ul li i.active{
+    color: var(--color-green);
+}

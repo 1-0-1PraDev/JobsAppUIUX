@@ -1,0 +1,37 @@
+.app-container{
+    background: #029143;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.app-container ul{
+    list-style: none;
+}
+
+.app-container ul li a{
+    color: #fff;
+}
+
+.app-container .container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container .iconBx-main{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 1.2rem;
+    background-color: #2cc170;
+    background-image: linear-gradient(29deg, #2cc170 0%, #69dd97 50%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container .iconBx-main i{
+    font-size: 2.2rem;
+    color: #fff;
+}

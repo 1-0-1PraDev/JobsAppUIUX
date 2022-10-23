@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+:root{
+    --app-width: 360px;
+    --app-height: 676px;
+    --color-white: #fff;
+    --color-green: #2cc170;
+    --color-light: #e6f5f2; 
+    --app-color: #fdfdfdc9;
+    --app-padding: 2rem 1.5rem;
+    --color-text-faint: #858b9b;
+    --color-orange: #ff725e;
+    --color-faint-2: #aeb9b3;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    padding: var(--app-padding);
+    background-color: #c0dfcd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-container{
+    width: var(--app-width);
+    height: var(--app-height);
+    background:var(--app-color);
+    border-radius: 1.8rem;
+    padding: var(--app-padding);
+    overflow: hidden;
+}
+
+.btn{
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    border-radius: 1.9rem;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #2cc170;
+    background-image: linear-gradient(29deg, #2cc170 0%, #69dd97 50%); 
+}
+
+.container .main .tags{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.container .main .tags .tag-item{
+    font-size: 0.9rem;
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    background-color: #fff;
+    color: var(--color-text-faint);
+    cursor: pointer;
+}
+
+.container .main .tags .tag-item.active{
+    background-color: var(--color-green);
+    color: #fff;
+}
+
+.container .main .tags::-webkit-scrollbar{
+    display: none;
+}
+
+
+

@@ -1,0 +1,86 @@
+.app-container .container .main .topBx{
+    gap: 3rem;
+    margin-bottom: 1rem;
+}
+
+.short-txt{
+    color: var(--color-text-faint);
+    font-size: 0.8rem;
+}
+
+.app-container .container .main .jobCards {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 0.6rem;
+    overflow-y: auto;
+}
+
+.app-container .container .main .jobCards .jobCard {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx > div{
+    width: 100%;
+    /* background: red; */
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .textBx h4{
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .imgBx{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--color-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .imgBx img{
+    width: 2.3rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .textBx{
+    text-align: left;
+    /* margin-bottom: 2rem;
+    display: block; */
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .iconBx {
+    margin-left: 1.7rem;
+    text-align: right;
+    color: var(--color-orange);
+    font-size: 1.4rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .userBx .iconBx span{
+    font-size: 0.2rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .locationBx {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+}
+
+.app-container .container .main .jobCards .jobCard .contentBx .locationBx .iconBx{
+    color: var(--color-text-faint);
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.faintTxt{
+    color: var(--color-faint-2);
+}

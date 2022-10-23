@@ -1,0 +1,64 @@
+.heading{
+    text-align:center;
+}
+
+.app-container .container .main .formBx{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.app-container .container .main .formBx .form-div .form-div-text{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.app-container .container .main .formBx .form-div .inputBx{
+    background-color: #fff;
+    display: flex;
+    gap: 1rem;
+    padding: 0.8rem ;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+
+.app-container .container .main .formBx .form-div .inputBx select{
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: white;
+}
+
+.app-container .container .main .formBx .form-div .inputBx .iconBx i{
+    font-size: 1.2rem;
+    color: var(--color-faint-2)
+}
+
+.app-container .container .main .formBx .form-div .split{
+    display: flex;
+    gap: 2.3rem;
+    justify-content: space-between;
+}
+
+.app-container .container .main .formBx .form-div .inputBox input{
+    background-color: #fff;
+    width: 100px;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    padding: 0.7rem 0.4rem;
+}
+
+.app-container .container .main .formBx .form-div .inputBox span{
+    display: block;
+    font-size: 0.7rem;
+}
+
+.tags{
+    overflow: auto;
+    flex-wrap: wrap;
+    margin: 0 !important;
+    gap: 0.5rem !important;
+}
